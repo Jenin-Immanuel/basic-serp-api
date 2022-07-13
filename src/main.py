@@ -1,4 +1,4 @@
-from serp_mod import google_search
+from src.serp_mod import google_search
 
 from fastapi import FastAPI, HTTPException
 
