@@ -1,17 +1,11 @@
 from serp_mod import google_search
 
-from fastapi import FastAPI
+from fastapi import FastAPI, HTTPException
 
 app = FastAPI()
 
-@app.get("/")
-async def root():
-    return { "info": "Initalized API" }
-
-
-
-
-query = input("Enter the term you want to search on google:")
-results = google_search(query)
-for i in results:
-    print(i)
+@app.get("/api")
+async def root(q: str | None = None):
+    if q == None:
+        raise HTTPException(status_code=404, detail="Query not given")
+    return google_search(q)

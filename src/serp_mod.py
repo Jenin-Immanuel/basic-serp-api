@@ -26,7 +26,7 @@ def parse_results(response):
     text_identifier = ".VwiC3b"
     
     results = response.html.find(result_box_identifier)
-    output = []
+    final_results = []
 
     for result in results:
         # Debugging
@@ -47,9 +47,9 @@ def parse_results(response):
                 'text': text.text
             }
         
-        output.append(item)
+        final_results.append(item)
 
-    return output
+    return final_results
 
 def google_search(query):
     res = get_results("data science")
