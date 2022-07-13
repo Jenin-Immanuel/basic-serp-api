@@ -9,3 +9,7 @@ Using Python and FastAPI
 - [ ] Initialize FastAPI
 - [ ] Create an API endpoint with the functionalities
 - [ ] Host the api
+
+#### Optional Tasks
+
+- [ ] Create rotating proxies for privacy
