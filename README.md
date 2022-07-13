@@ -6,6 +6,6 @@ Using Python and FastAPI
 
 - [x] Create the repo
 - [x] Create basic serp functionalities using python
-- [] Initialize FastAPI
-- [] Create an API endpoint with the functionalities
-- [] Host the api
+- [ ] Initialize FastAPI
+- [ ] Create an API endpoint with the functionalities
+- [ ] Host the api
