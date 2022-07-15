@@ -13,3 +13,15 @@ Using Python and FastAPI
 #### Optional Tasks
 
 - [ ] Create rotating proxies for privacy
+
+### Local build
+
+`pip install -r requirements.txt`
+
+#### Run locally
+
+`make run`
+
+#### Watch for changes
+
+`make watch`
