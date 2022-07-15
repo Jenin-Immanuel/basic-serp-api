@@ -8,7 +8,7 @@ Using Python and FastAPI
 - [x] Create basic serp functionalities using python
 - [x] Initialize FastAPI
 - [x] Create an API endpoint with the functionalities
-- [ ] Host the api
+- [x] Host the api
 
 #### Optional Tasks
 
